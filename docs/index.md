@@ -1,0 +1,38 @@
+--- 
+knit: "bookdown::render_book"
+title: "Work Out Data With R"
+author: "Lingyun Zhang"
+date: "2023-01-07"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+link-citations: yes
+links-as-notes: true
+colorlinks: true
+---
+
+
+
+
+
+# Preface {-}
+
+- Organize the work
+    - projects
+    - using git
+- How to get data into R?
+    - import data from files
+    - import data from database
+    - create data by yourself
+- How to quickly understand the data
+    - using `myhelper` package
+    - ask people questions
+- Process data
+   - `tidyverse`
+   - base R + `data.table`
+   - checking outputs
+- Documentations
+   - for yourself
+   - for other people
+   - tips: a) keep big chunk of R code in separate files; b) easy R code in Rmd files 
+   
